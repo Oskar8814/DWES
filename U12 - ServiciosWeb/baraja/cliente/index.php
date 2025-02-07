@@ -9,7 +9,7 @@
     <form action="peticion.php" method="post">
         <label for="cartas">Introduce el número de cartas</label>
         <input type="number" name="cartas" id="cartas">
-        <input type="submit" value="Pedir">
+        <input type="submit" value="Barajar">
     </form>
 </body>
 </html>
