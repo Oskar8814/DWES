@@ -1,0 +1,101 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    /* line-height: 1.6; */
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #444;
+}
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    color: #444;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    /* padding: 2px; */
+    text-align:center;
+    /* margin-left: 5px; */
+}
+
+th {
+    background-color: darkslategray;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Botones */
+form input[type="submit"] {
+    width: auto;
+    margin: 15px auto;
+    background-color: darkslategray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: lightslategray;
+}
+
+/* Contenedor de acciones */
+.actions__container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaciado entre botones */
+    margin-top: 20px;
+}
+
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    form input[type="submit"] {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}

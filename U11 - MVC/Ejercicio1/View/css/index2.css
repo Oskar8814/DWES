@@ -1,0 +1,178 @@
+/* General Styles */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef2f3;
+  color: #333;
+}
+/* Estilo para el h1 (cabecera principal) */
+h1 {
+  background-image: url(../img/libros.webp);
+  background-position: top center;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  color: darkred;
+  -webkit-text-stroke: #222;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Contorno negro */
+  font-size: 36px; 
+  font-weight: bold; 
+  padding: 20px;
+  text-align: center; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  
+  /* Alineación vertical y horizontal */
+  display: flex;
+  justify-content: center; /* Alineación horizontal */
+  align-items: center; /* Alineación vertical */
+  text-align: center; /* Asegura que el texto esté centrado */
+}
+
+
+form {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+/* Estilos para los enlaces (botones) */
+a.add {
+  background-color: #28a745; /* Verde */
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto; /* Centra horizontalmente */
+  width: 200px; /* Define un ancho fijo para facilitar el centrado */
+  text-align: center;
+}
+
+a.add:hover {
+  background-color: #218838;
+}
+
+/* Para el contenedor que rodea el enlace de 'Añadir' */
+body > a.add {
+  display: block;
+  text-align: center; /* Esto asegura que el bloque se centre */
+  margin-bottom: 20px; /* Espaciado debajo del enlace */
+}
+
+a.delete {
+  background-color: #dc3545; /* Rojo */
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+a.delete:hover {
+  background-color: #c82333;
+}
+
+a.modify {
+  background-color: goldenrod; /* Goldenrod */
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+a.modify:hover {
+  background-color: darkgoldenrod;
+}
+
+/* Card Grid Layout */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #222;
+}
+
+.card p {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.card a {
+  margin-right: 15px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  form {
+      padding: 15px;
+  }
+
+  .card-container {
+      grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .card-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}

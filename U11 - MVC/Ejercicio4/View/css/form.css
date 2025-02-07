@@ -1,0 +1,99 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Contenedor del formulario */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor del formulario */
+form {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Encabezado */
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: darkslategray;
+    margin-top: 30px;
+}
+
+/* Etiquetas */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Campos de entrada */
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+}
+
+/* Campo de solo lectura */
+form input[readonly] {
+    background-color: #e9ecef;
+    color: #6c757d;
+    cursor: not-allowed;
+}
+
+/* Botón de envío */
+form input[type="submit"] {
+    background-color:darkslategray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: lightslategray;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    form {
+        padding: 15px 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    form input[type="text"],
+    form input[type="submit"] {
+        font-size: 14px;
+    }
+}

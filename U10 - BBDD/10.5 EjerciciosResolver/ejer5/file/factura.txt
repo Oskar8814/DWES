@@ -1,0 +1,4 @@
+Codigo - Cantidad - Precio
+h020-3-164.802
+h007-3-81.0579
+Total de la factura 245.8599 euros

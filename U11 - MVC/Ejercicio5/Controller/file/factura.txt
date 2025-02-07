@@ -1,0 +1,3 @@
+Codigo - Cantidad - Precio
+Supermarine Spitfire-7-2100
+Total de la factura 2100 euros

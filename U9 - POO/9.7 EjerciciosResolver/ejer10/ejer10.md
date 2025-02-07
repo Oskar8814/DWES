@@ -1,0 +1,1 @@
+Modificar la forma del interruptor general para ser manejado desde la clase y no en el index.

@@ -1,0 +1,5 @@
+Codigo - Cantidad - Precio
+Supermarine Spitfire-1-300
+P-51 Mustang-1-320
+Messerschmitt Bf 109-1-290
+Total de la factura 910 euros

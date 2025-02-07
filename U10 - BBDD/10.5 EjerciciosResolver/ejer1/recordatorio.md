@@ -1,0 +1,1 @@
+MODIFICAR LA PAGINA modificar.php ya que no funciona adecuadamente ni las redirecciones ni la modificacion de la BBDD (Buscar fallo)

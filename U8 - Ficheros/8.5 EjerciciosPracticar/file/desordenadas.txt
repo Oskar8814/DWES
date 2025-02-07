@@ -1,0 +1,9 @@
+palabra
+nombre
+fichero
+casa
+ordenador
+asistencia
+caldero
+caldera
+caldera

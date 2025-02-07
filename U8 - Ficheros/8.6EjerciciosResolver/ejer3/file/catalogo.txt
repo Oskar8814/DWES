@@ -1,0 +1,4 @@
+av1-Supermarine Spitfire-300-img/spitfire.jpg-El Supermarine Spitfire fue un caza monoplaza británico
+av2-P51 Mustang-320-img/p51mustang.jpg-El North American P
+av3-Messerschmitt Bf 109-290-img/bf109.jpg-El Messerschmitt Bf 109 fue un avión de caza alemán
+av4-Boeing B17-290-img/BoeingB17.jpg-El BoeingB17 fue un bombardero israelí

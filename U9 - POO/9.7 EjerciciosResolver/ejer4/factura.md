@@ -1,0 +1,1 @@
+Modificar el index para que sea interactivo como la foto, tambien añadir la posibilidad de pasar la factura a un fichero.

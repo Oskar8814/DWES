@@ -1,0 +1,4 @@
+Baño-55
+Salon-50
+Dormitorio-55
+Cocina-55
