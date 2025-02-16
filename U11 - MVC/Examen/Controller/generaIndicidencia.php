@@ -4,6 +4,7 @@ require_once '../Model/Incidencia.php';
 if (session_status() == PHP_SESSION_NONE) session_start();
 
 if (isset($_REQUEST['nuevaIncidencia'])) {
+    $fecha = date("d-m-Y",time());
     include '../View/nuevaIncidencia_view.php';
 }else {
     header('Location:../Controller/index.php');
@@ -13,5 +14,4 @@ if (isset($_REQUEST['generaIncidencia'])) {
     $incidenciaAux->insert();
     header('Location:../Controller/index.php');
 }
-
 ?>

@@ -9,7 +9,7 @@
     <h1>Formulario para nueva incidencia</h1>
     <form action="" method="post">
         <label for="">Fecha</label>
-        <input type="text" name="fecha" id=""><br>
+        <input type="text" name="fecha" id="" value="<?= $fecha ?>" readonly><br>
         <label for="">Descripcion</label>
         <textarea name="descripcion" id=""></textarea><br>
         <input type="submit" value="Registrar">
