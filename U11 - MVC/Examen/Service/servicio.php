@@ -45,7 +45,7 @@ if ($metodo=='GET') {
         $perfil2=$usuario2->getPerfil();
         if ($perfil=="admin" && $perfil2=="admin") {
             
-            $incidencias = Incidencia::getIncidenciasResueltaByAdmin($usuario->getId());
+            $incidencias = Incidencia::getIncidenciasByAdmin($usuario->getId());
             // var_dump($incidencias);
             if (count($incidencias)!=0 ) {
                 foreach ($incidencias as $incidencia) {
