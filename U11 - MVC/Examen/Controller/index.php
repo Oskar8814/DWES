@@ -30,7 +30,7 @@ if (isset($_SESSION['perfil'])) {
             // $usuarioAux2 = Usuario::getUsuarioByNombre($_SESSION['nombre']);
             $incidencia = Incidencia::getIncidenciaById($_REQUEST['idIncidencia']);
             $incidencia->setEstado("PENDIENTE");
-            $incidencia->setAdmin(0);
+            $incidencia->setAdmin('NULL');
             $incidencia->update();
         }
         
