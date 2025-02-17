@@ -14,6 +14,10 @@ if (isset($_REQUEST['usuario'])) {
     }else {
         $usuarioAux = new Usuario(0, $_REQUEST['usuario'],"user");
         $usuarioAux->insert();
+        $_SESSION['nombre']=$_REQUEST['usuario'];
+        $_SESSION['perfil']="user";
+        header('Location:../Controller/index.php');
+        
     }
 }
 
